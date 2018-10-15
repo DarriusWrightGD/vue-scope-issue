@@ -31,8 +31,10 @@
 </template>
 
 <script>
+import OtherVue from './Other'
 export default {
   name: 'HelloWorld',
+  components: [OtherVue],
   props: {
     msg: String
   }
